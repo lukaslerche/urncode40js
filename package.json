@@ -1,6 +1,6 @@
 {
 	"name": "urncode40",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "JavaScript library to encode and decode URN Code 40",
 	"license": "MIT",
 	"repository": "lukaslerche/urncode40js",
