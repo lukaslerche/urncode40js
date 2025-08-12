@@ -1,0 +1,40 @@
+{
+	"name": "urncode40",
+	"version": "1.0.0",
+	"description": "JavaScript library to encode and decode URN Code 40",
+	"license": "MIT",
+	"repository": "lukaslerche/urncode40js",
+	"author": {
+		"name": "Lukas Lerche",
+		"email": "lukas.lerche@tu-dortmund.de",
+		"url": "https://lukaslerche.de"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./distribution/index.d.ts",
+		"default": "./distribution/index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"release": "np",
+		"build": "del-cli distribution && tsc"
+	},
+	"files": [
+		"distribution"
+	],
+	"keywords": [
+		"urncode40",
+		"encode",
+		"decode"
+	],
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^8.0.1",
+		"@types/node": "^24.2.1",
+		"del-cli": "^6.0.0",
+		"np": "^10.2.0",
+		"typescript": "^5.9.2"
+	}
+}
