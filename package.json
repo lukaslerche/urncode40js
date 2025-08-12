@@ -19,7 +19,7 @@
 		"node": ">=18"
 	},
 	"scripts": {
-		"release": "np",
+		"release": "np --no-tests",
 		"build": "del-cli distribution && tsc"
 	},
 	"files": [
